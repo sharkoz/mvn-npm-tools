@@ -5,6 +5,7 @@ RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - \
   && apt-get install -y nodejs bzip2 libfreetype6 libfontconfig1 build-essential \
   && npm install -g bower \
   && npm install -g grunt \
+  && npm install -g karma-cli \
   && wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2 \
   && tar -xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 && rm phantomjs-2.1.1-linux-x86_64.tar.bz2 \
   && mv phantomjs-2.1.1-linux-x86_64 /usr/local/phantomjs-2.1.1-linux-x86_64 \
